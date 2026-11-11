@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+
+# Junk copied off a Mac-formatted CIRCUITPY drive
+.Trash-1000
+.Trashes
+.fseventsd/
+.metadata_never_index
+
+# KiCad lock and cache files
+~*.lck
+*.lck
+fp-info-cache
+
+# CH572 compiler output
+Firmware/ch572/build/
+
+# RP2350 C firmware build trees and host test binary
+Firmware/rp2350/build/
+Firmware/rp2350/build-bench/
+Firmware/rp2350/host/host_check
+
+# Local checkout of https://github.com/openwch/ch570 (its own git repo)
+Firmware/third_party/

@@ -1,0 +1,6 @@
+This is the CircuitPython v8 wand program, kept so it can be put back.
+
+1. Hold BOOTSEL while plugging the wand in. A drive called RP2350 appears.
+2. Copy circuitpython-pico2-10.3.1.uf2 onto that drive and wait for it to reboot.
+3. A drive called CIRCUITPY appears. Copy everything in device/ onto it, and copy code.py last.
+4. Leave the wand still for a second. The serial line is POV> ready (v8).

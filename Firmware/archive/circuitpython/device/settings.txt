@@ -1,0 +1,67 @@
+# ==========================================================
+#   WAND SETTINGS  -  open this file in Notepad, change a
+#   word after the "=" sign, save. The wand restarts by itself.
+#   Lines starting with # are notes and are ignored.
+# ==========================================================
+
+# What should the wand show?
+#    text  = the words in message.txt
+#    image = the picture in image.bmp
+#    both  = swap between the two every few seconds
+SHOW = text
+
+# When SHOW = both: how many seconds to show each one
+SECONDS = 4
+
+# Make the display wider (bigger than 1) or narrower (smaller than 1)
+STRETCH = 1.0
+
+# Picture only: which pixels light up?
+#    dark  = the black parts of your drawing light up (best for drawing in Paint)
+#    light = the white parts light up
+LIT = dark
+
+# Only show while the wand moves one way?   both / right / left
+PASSES = both
+
+# Holding the wand upside down?   yes / no
+FLIP_VERTICAL = no
+
+# If words come out backwards, change this to -1
+SIGN = 1
+
+# Put the wand down and the lights go out. Pick it up, or give it a small shake, and it wakes.
+# SLEEP = no leaves it always on.
+# SLEEP_S is how many seconds it waits. WAKE_G is how hard a nudge has to be.
+# SLEEP_MODE: light or deep need newer firmware. This board watches the sensor pin instead (soft).
+SLEEP = yes
+SLEEP_S = 3
+SLEEP_MODE = light
+WAKE_G = 0.25
+INT_TEST = no
+
+# ---------------- setup / tuning (usually set once) ----------------
+
+# Lines up the left-to-right and right-to-left passes. Leave this off to see the words.
+# Turn CALIBRATE on and you should see THREE thin bars: left edge of the word,
+# the centre, and the right edge. Moving right lights the top half of the LEDs.
+# Moving left lights the bottom half. The two halves stacking into one bar means
+# the passes agree. A top half sitting beside a bottom half means they do not.
+CALIBRATE = no
+SHIFT_MS = 6
+
+# Which part of the swing keeps time:
+#    peaks = the two ends of the swing (recommended - works for any swing style)
+#    zero  = the middle of the swing (only for very smooth, gentle swings)
+#    auto  = the wand picks one from how you swing
+ANCHOR = peaks
+
+# How much of the full sweep the display uses, in percent. The ends of a swing are
+# slow and squashed, so only the middle is used. Lower = narrower and cleaner.
+WIDTH = 60
+
+# The picture is drawn as a smooth swing. Leave this at 0.
+SHAPE = 0
+
+# yes = prints a report to the serial console after you stop. Leave off for normal use.
+DEBUG = no
