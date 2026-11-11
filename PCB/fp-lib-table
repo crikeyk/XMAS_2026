@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PCM_JLCPCB") (type "KiCad") (uri "${KIPRJMOD}/../../kicad-library/footprints/PCM_JLCPCB.pretty") (options "") (descr "Private PCM_JLCPCB footprints"))
+	(lib (name "_MyLib") (type "KiCad") (uri "${KIPRJMOD}/../../kicad-library/footprints/_MyLib.pretty") (options "") (descr "Private footprints"))
+)

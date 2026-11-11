@@ -10,3 +10,7 @@ Christmas 2026 persistence-of-vision display.
 ## Origin
 
 Copied from [PoV_display_PoC](https://github.com/crikeyk/PoV_display_PoC) at `458e425`, then the KiCad project was renamed to `XMAS_2026`.
+
+## Libraries
+
+Custom symbols and footprints are in the private [kicad-library](https://github.com/crikeyk/kicad-library) repo. Clone it next to this project (`Documents/Code/kicad-library`) so `PCB/sym-lib-table` and `PCB/fp-lib-table` resolve `${KIPRJMOD}/../../kicad-library`.
