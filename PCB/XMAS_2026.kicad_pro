@@ -685,7 +685,7 @@
         "uuid": "67d8c47b-5fde-4a4a-9b9e-7bb01561ec4b"
       }
     ],
-    "used_designators": "AE1",
+    "used_designators": "#PWR40-41,#PWR43,#PWR45,#PWR47-49,#PWR58-59,#PWR67-69,#PWR73-87,AE1,D17-21,J3-6,JP1,Q2,R10,R34,R37-39,TP15-16",
     "variants": []
   },
   "sheets": [
