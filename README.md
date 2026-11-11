@@ -13,4 +13,6 @@ Copied from [PoV_display_PoC](https://github.com/crikeyk/PoV_display_PoC) at `45
 
 ## Libraries
 
-Custom symbols and footprints are in the private [kicad-library](https://github.com/crikeyk/kicad-library) repo. Clone it next to this project (`Documents/Code/kicad-library`) so `PCB/sym-lib-table` and `PCB/fp-lib-table` resolve `${KIPRJMOD}/../../kicad-library`.
+The handmade parts are in the private [kicad-library](https://github.com/crikeyk/kicad-library) repo: the `TLV74311PDBVR` symbol and the `BC-8200 AAA Battery clip` footprint. Clone it next to this project (`Documents/Code/kicad-library`) so `PCB/sym-lib-table` and `PCB/fp-lib-table` resolve `${KIPRJMOD}/../../kicad-library`.
+
+The other symbols and footprints are the [JLCPCB KiCad library](https://github.com/CDFER/JLCPCB-Kicad-Library), installed through KiCad's Plugin and Content Manager. Use the 2026.08.08 package. The newer 2026.09.21 package is missing the generated parts.
